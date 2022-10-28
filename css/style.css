@@ -4,11 +4,14 @@
   margin-bottom: 10px;
   position: relative;
   padding: 100px;
+ 
+
   
  
 }
 
   .middle-container {
+    margin: 100px 0;
    
    
     
@@ -17,6 +20,9 @@
    
   }
   .bottom-container{
+    background-color: #66BFBF;
+    padding:50px 0 20px;
+
    
    
    
@@ -25,6 +31,10 @@
    
   }
 body {
+  color: #40514e;
+  
+  
+  
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -50,6 +60,7 @@ h2
   font-size:2.5rem  ;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 
 }
 h3
@@ -85,6 +96,20 @@ a
   display: inline-block;
   
 }
+
+.intro
+{
+  width: 30%;
+  margin: auto;
+
+
+}
+p{
+  line-height:2;
+}
+
+
+
 .skill-row
 {
   display: block;
@@ -120,6 +145,72 @@ a
   float: left;
   margin-right: 30px;
   margin-bottom: 50px;
+}
+
+hr{
+  border:dotted #8a8d8d 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.contact_message{
+  width: 40%;
+  margin: 40px auto 60px;
+  color: #050505;
+
+
+}
+
+
+.btn {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #18d7de);
+  background-image: -moz-linear-gradient(top, #11999E, #18d7de);
+  background-image: -ms-linear-gradient(top, #11999E, #18d7de);
+  background-image: -o-linear-gradient(top, #11999E, #18d7de);
+  background-image: linear-gradient(to bottom, #11999E, #18d7de);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 11px 16px 11px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #c5e2f6);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #c5e2f6);
+  background-image: -ms-linear-gradient(top, #3cb0fd,  #c5e2f6);
+  background-image: -o-linear-gradient(top, #3cb0fd, #c5e2f6);
+  background-image: linear-gradient(to bottom, #3cb0fd,  #c5e2f6);
+  text-decoration: none;
+}
+
+a{
+
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+  
+
+
+
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+
 }
 
 
